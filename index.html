@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=md-1.0">
+    <title>Maquette</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+
+    <header>
+        <nav class="navbar bg-dark row">
+            <div class=" row col-md-8 justify-content-start ">
+                <a class="navbar-brand col-md-1 text-white"> Carousel</a>
+                <a class="navbar-brand col-md-1 text-white">Home</a>
+                <a class="navbar-brand col-md-1 text-secondary">Link</a>
+                <a class="navbar-brand col-md-1 text-secondary">Disabled</a>
+            </div>
+            <div class=" row col-md-3 justify-content-end">
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+
+        </nav>
+
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+
+                <div class="carousel-item active">
+                    <img src="img/1.jpg" class="d-block w-100" width="200px" height="400px" alt="...">
+
+                </div>
+                <div class="carousel-item">
+                    <img src="img/8.jpg" class="d-block w-100" width="200px" height="400px" alt="...">
+
+                </div>
+                <div class="carousel-item">
+                    <img src="img/5.jpg" class="d-block w-100" width="200px" height="400px" alt="...">
+                </div>
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Third slide label</h5>
+                    <p>Praesent commodo cursus magna, vel
+                        scelerisque nisl consectetur.</p>
+                 <button type="button" class="btn btn-primary">Primary</button>
+                </div>
+              
+                
+            </div>
+           
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"> </span>
+                <span class="visually-hidden"> Previous </span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden"> Next </span>
+            </button>
+        </div>
+        </div>
+
+
+    </header>
+    <main>
+
+        <div class="row justify-content-center  mt-5">
+            <div class="  col-md-3  ">
+                <img src="img/3.jpg" width="150px" height="150px" class="rounded-circle  " alt="...">
+                <div class="card-body">
+                    <h2>Heading</h2>
+                    <p >Some quick example text to build on the card title and make up the bulk
+                        of the card's content. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit ut
+                        distinctio quaerat, aut iure aliquid nesciunt officia, repellat quo ullam, quidem asperiores
+                        explicabo quis? Incidunt suscipit magni fugit porro deleniti</p>
+                    <button type="button" class="btn btn-secondary btn-sm"> View details >> </button>
+                </div>
+
+            </div>
+            <div class=" col-md-3    ">
+                <img src="img/6.jpg" width="150px" height="150px" class="rounded-circle " alt="...">
+                <div class="card-body">
+                    <h2 >Heading</h2>
+                    <p >Some quick example text to build on the card title and make up the bulk
+                        of the card's content. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit ut
+                        distinctio quaerat, aut iure aliquid nesciunt officia, repellat quo ullam, quidem asperiores
+                        explicabo quis? Incidunt suscipit magni fugit porro deleniti</p>
+                    <button type="button" class="btn btn-secondary btn-sm"> View details >> </button>
+                </div>
+            </div>
+
+            <div class=" col-md-3 ">
+                <img src="img/7.jpg" width="150px" height="150px"  class="rounded-circle " alt="...">
+                <div class="card-body">
+                    <h2 >Heading</h2>
+                    <p >Some quick example text to build on the card title and make up the bulk
+                        of the card's content. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit ut
+                        distinctio quaerat, aut iure aliquid nesciunt officia, repellat quo ullam, quidem asperiores
+                        explicabo quis? Incidunt suscipit magni fugit porro deleniti.</p>
+                    <button type="button" class=" btn btn-secondary btn-sm"> View details >> </button>
+                </div>
+
+            </div>
+        </div>
+
+        <hr class="mx-5 ">
+
+        <div class="row gx-0 py-5 m-3 justify-content-center ">
+
+            <div class="col-md-4 ">
+                <h2>First  featurette heading.<span class="text-secondary">It'll blow your mind.</span></h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde optio incidunt perferendis molestiae cumque vel commodi nesciunt sapiente quas, mollitia quia voluptas in architecto impedit, voluptate, iusto nobis ad cupiditate!</p>
+    
+            </div>
+        <div class="col-md-4 ">
+            
+            <div class="bg-image hover-overlay ripple shadow-2-strong
+                rounded-5" data-mdb-ripple-color="light">
+                <img
+                    src="img/11.jpg"
+                    class="img-fluid" class="d-block w-100" width="500px" height="500px" />
+                <a href="#!">
+                    <div class="mask" style="background-color: rgba(251,
+                        251, 251, 0.15);"></div>
+                </a>
+            </div>
+        </div>
+        
+        <hr class="mx-5  mt-5">
+
+        <div class="row gx-0 py-5 m-3 justify-content-center ">
+
+           
+        <div class="col-md-4 ">
+            
+            <div class="bg-image hover-overlay ripple shadow-2-strong
+                rounded-5" data-mdb-ripple-color="light">
+                <img
+                    src="img/10.jpg"
+                    class="img-fluid" class="d-block  w-100" width="500px" height="500px" />
+                <a href="#!">
+                    <div class="mask" style="background-color: rgba(251,
+                        251, 251, 0.15);"></div>
+                </a>
+            </div>
+        </div>
+        <div class="col-md-4 ">
+            <h2>Oh yeah ,it's that good.<span class="text-secondary">See  for yourself</span></h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde optio incidunt perferendis molestiae cumque vel commodi nesciunt sapiente quas, mollitia quia voluptas in architecto impedit, voluptate, iusto nobis ad cupiditate!</p>
+
+        </div>
+
+
+        <hr class="mx-5  mt-5">
+
+        <div class="row gx-0 py-5 m-3 justify-content-center ">
+
+            <div class="col-md-4 ">
+                <h2>And lastly,this one.<span class="text-secondary">Checkmate.</span></h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde optio incidunt perferendis molestiae cumque vel commodi nesciunt sapiente quas, mollitia quia voluptas in architecto impedit, voluptate, iusto nobis ad cupiditate!</p>
+    
+            </div>
+        <div class="col-md-4 ">
+            
+            <div class="bg-image hover-overlay ripple shadow-2-strong
+                rounded-5" data-mdb-ripple-color="light">
+                <img
+                    src="img/9.jpg"
+                    class="img-fluid" class="d-block  w-100" width="500px" height="500px" />
+                <a href="#!">
+                    <div class="mask" style="background-color: rgba(251,
+                        251, 251, 0.15);"></div>
+                </a>
+            </div>
+        </div>
+      
+
+    </div>
+ 
+<hr>
+    </main>
+
+    <footer class="text-muted py-5">
+        <div class="container">
+          <p class="float-end mb-1">
+            <a href="index.html">Back to
+              top</a>
+          </p>
+          <p class="mb-1">Album example is © Bootstrap, but please download and
+            customize it for yourself!</p>
+          <p class="mb-0">2022-2023 Company ,Inc  <a href="#"> Privary </a><a
+              href="#"> Terms </a>.</p>
+        </div>
+      </footer>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+
+
+
+        </script>
+
+</body>
+
+</html>
